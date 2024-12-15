@@ -1,0 +1,320 @@
+body{
+    width: 1200px;
+    margin: 0 auto;  
+}
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height:40px ;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+nav li {
+    margin: 0 10px;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+.mal1{
+    height: 350px;
+    background-image: url(../img/mal1.jpg);
+    background-position: 50% 50%;
+    color:aliceblue;
+    text-align: center;
+    padding-top: 20%;
+
+}
+.mal1 h1{
+    font-size: 50px;
+}
+#Design{
+    text-align: center;
+    height: 200px;
+    padding-top: 4%;
+    
+}
+#Design h1{
+    font-size: 30px;
+}
+#Design #bu{
+    color: #333;
+}
+#Design #get{
+     font-size: 13px;
+}
+#leanmone {
+    display: flex;
+}
+#leanmone div{
+    margin-left: 10px;
+}
+img{
+    width: 100%;
+    
+}
+.Desk{
+    text-align: center;    
+}
+.Desk p{
+    font-size: 11px;
+}
+.laptop{
+    text-align: center;   
+}
+.laptop p{
+    font-size: 11px;
+}
+#Featured{
+    text-align: center;
+    height: 69px;
+}
+#Featured p{
+    font-size:15px ;
+    color:#534b4b
+}
+#Featured h2{
+    font-size: 27px;
+}
+.Toch{
+    text-align: center;
+    font-size: 30px;
+    height: 32px;
+}
+ .cards{
+    display: flex;
+    width: 1440px;
+    height: 493px;
+ }
+ .cards p{
+    color: #534b4b;
+ }
+ .cards img{
+    height: 435px;
+ }
+ #home{
+    height: 450px;
+    background-image: url(../img/ofis1.jpg);
+    background-position: 50% 50%;
+    color:aliceblue;
+    text-align: center; 
+    padding-top: 20%;
+    background-repeat: no-repeat;  
+ }
+ #home h1{
+    font-size:50px ;
+ }
+ #made{
+    
+    width: 1052px;
+    height: 592px;
+    text-align: center;
+     
+ }
+ #made p{
+ color:#534b4b ;
+margin-left: 20%;
+}
+#made h2{
+    font-size: 30px;
+    margin-left: 20%;
+}
+#made img{
+    margin-left: 9%;
+    margin-top: 2%;
+}
+.work-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap:20px;
+    margin-top:20%;
+    margin-bottom: 10%;
+
+}
+#work{
+    text-align: center;
+    font-size: 25px;
+    width: 1200px;
+    height: 1200px;;
+     
+}
+#Designinspires{
+    background-color: #a39db1;
+    width: 1200px;
+    height: 404px;
+    text-align: center;
+    padding-top:13%;
+    font-size: 30px;
+    color: rgb(240, 248, 255);
+    
+}
+#Designinspires img{
+    width:40px ;
+    height: 30px;
+    color: #f2f2f23f;
+}
+#Designinspires h1{
+    font-size: 60px;
+}
+ footer{
+     height: 468px;
+     font-size: 30px;
+     margin-top: 5%;
+     display:flex;
+     box-sizing: border-box;
+      
+ }
+ footer .menu{
+    flex-basis:15% ;
+    height:265px ;
+    margin-top: 4%;
+    color: #443d3d;
+    line-height: 55px;
+    font-size: 24px;
+ }
+ footer.Signup{
+    flex-basis:20% ;
+     
+    
+ }
+  .Signup p{
+    color:#443d3d;
+    font-size: 20px;
+    
+  }
+  .goup p{
+    background-color: #000000;
+    color: #f2f2f2;
+    width:70px ;
+    height: 70px;
+    font-size: 25px;
+    margin: 10% auto;
+    text-align: center;
+    padding: 20% ;
+    padding-top: 40%;
+  }
+  .goup p{
+     position:relative; 
+     margin-left:750%;
+
+  }
+  @media all and (max-width:440px)
+  {
+    body{
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    .mal1{
+        height: 200px;
+        width: 100%;
+        background-position: center;
+        background-size: cover; 
+        background-repeat: no-repeat;     
+        font-size: 15px;
+    }
+    .mal1 h1{
+        font-size: 30px;
+    }
+        
+    #leanmone {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3%;
+  }
+  .cards{
+    width: 100%;
+    height: 900px;
+    flex-wrap: wrap;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left:4%;
+}
+ .cards img{
+        width: 100%;
+        height: auto;
+    }
+    #home{
+        height:150px;
+        width: 100%;
+        font-size: 10px;
+    }
+    #home h1{
+        font-size: 30px;}
+    #made{
+    
+        width:100%;
+        height:400px;
+        font-size: 15px; 
+        margin: 0;
+        padding: 0;
+        
+       
+    }
+    #made h2{
+    font-size: 30px;
+    }
+    #made img{
+        width: 90%;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+         
+    } 
+    .work-cards{
+        width: 440px;
+        height: 800px;
+        margin: 0;
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 5%;
+    }
+    .work-text{
+        font-size: 16px;
+        text-align: left;
+        margin-top: 35%;
+        padding-left: 8%;
+    }
+ 
+#made p{
+ width: 90%;
+margin-left: 10px; 
+}
+#made h2{
+    
+   margin-left: 0%;
+}
+#made img{
+   margin-left:0%;
+}
+#Designinspires{
+    width: 100%;
+    margin-top: 30%;
+    height: 250px;
+    font-size: 20px;
+}
+#Designinspires h1{
+    font-size: 30px;}
+
+footer .menu{
+   display: none;
+   width: 440px;
+   font-size: 20px;
+}
+}
+        
+
+     
+  
+  
